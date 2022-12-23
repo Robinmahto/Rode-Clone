@@ -28,7 +28,8 @@
     <!-- section 1-> navbar -->
 
     <header class="bg-white sticky top-0 z-10">
-      <nav class="mx-32 py-6 flex items-center justify-between">
+      <!-- desktop navbar-->
+      <nav class="hidden xl:mx-32 xl:py-6 xl:flex xl:items-center xl:justify-between">
         <div>
           <img
             src="./images/RODE_Logo_87x51_RGB.svg"
@@ -52,14 +53,13 @@
         </div>
       </nav>
 
-      <!-- mobile responsive -->
-
-      <nav class="lg:hidden">
+      <!-- mobile navbar-->
+      <nav class="flex items-center justify-between p-2 xl:hidden">
         <div>
-          <h2>menu</h2>
+          <span><i class="fa-solid fa-bars"></i></span>
         </div>
         <div>
-          <img src="./images/RODE_Logo_87x51_RGB.svg" alt="Rode" class="w-24" />
+          <img src="./images/RODE_Logo_87x51_RGB.svg" alt="Rode" class="w-20" />
         </div>
         <div>
           <span class="text-lg cursor-pointer"
@@ -74,7 +74,7 @@
       class="w-full h-[40em] bg-[url('./images/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg')] bg-cover bg-center lg:bg-[url('./images/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')] bg-cover bg-center relative"
     >
       <div
-        class="flex flex-col w-[30em] justify-end absolute right-[10em] top-[10em]"
+        class="hidden lg:flex lg:flex-col lg:w-[30em] lg:justify-end lg:absolute lg:right-[10em] lg:top-[10em]"
       >
         <img
           src="./images/RODECasterProII_PL_PI_01.svg"
@@ -102,6 +102,35 @@
         </div>
       </div>
     </section>
+    <!-- section 2-> Hero Section -> mobile -->
+      <div
+        class="flex justify-center items-center flex-col p-8 bg-[#000] lg:hidden"
+      >
+        <img
+          src="./images/RODECasterProII_PL_PI_01.svg"
+          alt=""
+          class="w-[30em] mb-8"
+        />
+        <h2 class="text-center font-semibold text-2xl text-white mb-4">
+          The Revolution Is Here
+        </h2>
+        <p class="text-greycolor font-semibold mb-8">
+          The RØDECaster Pro II is the world's most powerful all-in-one<br />
+          audio solution for streamers, podcasters, musicians, and creators.<br />
+          Take your content to the next level.
+        </p>
+        <div
+          class="text-center uppercase text-btncolor text-lg font-semibold cursor-pointer"
+        >
+          learn more
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+          <button
+            class="ml-4 bg-btncolor text-white px-5 py-1 rounded-full uppercase border border-btncolor hover:bg-white hover:text-btncolor"
+          >
+            buy now
+          </button>
+        </div>
+      </div>
 
     <!-- section 3 -->
     <section
