@@ -1,6 +1,6 @@
 # Rode-Clone 
 
-## Project 16 [Live Link](https://rode-clone.netlify.app/)
+## Project 16 [Live Link](https://rode-clone-tailwindcss-17.netlify.app/)
 
 - ### skills used in project
   - Learn tailwindCSS Properties, Grid, flexbox etc.
