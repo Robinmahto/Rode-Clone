@@ -168,7 +168,7 @@
       </div>
     </section>
     <!-- section 3 -> mobile -->
-    <div class="flex flex-col p-8">
+    <div class="flex flex-col justify-center items-center p-8 lg:hidden">
       <img
         src="./images/NTH-100_PL_P_RGB_01.svg"
         alt=""
@@ -196,10 +196,10 @@
 
     <!-- section 4 -->
     <section
-      class="w-full h-[42em] bg-[url(./images/rode-nt-usb-webheader-v7-1920x700-rgb.jpg)] bg-cover bg-center relative"
+      class="w-full h-[42em] bg-[url(./images/rode-nt-usb-webheader-v7-800x700-rgb.jpg)]  lg:bg-[url(./images/rode-nt-usb-webheader-v7-1920x700-rgb.jpg)] bg-cover bg-center relative"
     >
       <div
-        class="flex flex-col w-[30em] justify-end absolute right-[10em] top-[10em]"
+        class="hidden lg:flex lg:flex-col lg:w-[30em] lg:justify-end lg:absolute lg:right-[10em] lg:top-[10em]"
       >
         <img src="./images/NT-USB_PL_P_01.svg" alt="" class="w-[50em] mb-8" />
         <h2 class="text-center font-semibold text-2xl mb-4">
@@ -224,13 +224,39 @@
         </div>
       </div>
     </section>
+    <!-- section 4 -> mobile -->
+    <div
+        class="flex flex-col justify-center items-center p-8 lg:hidden"
+      >
+        <img src="./images/NT-USB_PL_P_01.svg" alt="" class="w-[50em] mb-8" />
+        <h2 class="text-center font-semibold text-2xl mb-4">
+          Studio-Quality Recording, Made Simple
+        </h2>
+        <p class="text-center text-greycolor font-semibold mb-8">
+          The NT-USB is a studio-quality USB condenser microphone that offers
+          impeccable audio, elegant looks and premium features, all in an
+          easy-to-use form factor, the NT-USB will have you sounding like a pro
+          in seconds.
+        </p>
+        <div
+          class="text-center uppercase text-btncolor text-lg font-semibold cursor-pointer"
+        >
+          learn more
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+          <button
+            class="ml-4 bg-btncolor text-white px-5 py-1 rounded-full uppercase border border-btncolor hover:bg-white hover:text-btncolor"
+          >
+            buy now
+          </button>
+        </div>
+    </div>
 
     <!-- section 5 -->
     <section
       class="w-full h-[42em] bg-[url(./images/rode-podmic-webheader-1920x700-rgb20.jpg)] bg-cover bg-center relative"
     >
       <div
-        class="flex flex-col w-[30em] justify-end absolute left-[10em] top-[10em]"
+        class="hidden lg:flex lg:flex-col lg:w-[30em] lg:justify-end lg:absolute lg:left-[10em] lg:top-[10em]"
       >
         <img src="./images/PodMic_PL_PI_01.svg" alt="" class="w-[50em] mb-8" />
         <h2 class="text-center font-semibold text-2xl text-white mb-4">
@@ -253,13 +279,37 @@
         </div>
       </div>
     </section>
+    <!-- section 5 -> mobile -->
+    <div
+    class="flex flex-col justify-center items-center p-8 bg-[#000] lg:hidden"
+  >
+    <img src="./images/PodMic_PL_PI_01.svg" alt="" class="w-[50em] mb-8" />
+    <h2 class="text-center font-semibold text-2xl text-white mb-4">
+      Broadcast-grade Dynamic Microphone
+    </h2>
+    <p class="text-center text-[#D2B9DE] font-semibold mb-8">
+      Give your voice that rich, broadcast sound with the PodMic. Perfect
+      for livestreaming, voice-over, podcasting and gameplay.
+    </p>
+    <div
+      class="text-center uppercase text-btncolor text-lg font-semibold cursor-pointer"
+    >
+      learn more
+      <span><i class="fa-solid fa-chevron-right"></i></span>
+      <button
+        class="ml-4 bg-btncolor text-white px-5 py-1 rounded-full uppercase border border-btncolor hover:bg-white hover:text-btncolor"
+      >
+        buy now
+      </button>
+    </div>
+  </div>
 
     <!-- section 6 -->
     <section
-      class="w-full h-[42em] bg-[url(./images/WIGOII-WEBHEADER-02.jpg)] bg-cover bg-center relative"
+      class="w-full h-[42em] bg-[url(./images/rode-wigo2-web-header-800x700.jpg)] lg:bg-[url(./images/WIGOII-WEBHEADER-02.jpg)] bg-cover bg-center relative"
     >
       <div
-        class="flex flex-col w-[30em] justify-end absolute right-[10em] top-[10em]"
+        class="hidden lg:flex lg:flex-col lg:w-[30em] lg:justify-end lg:absolute lg:right-[10em] lg:top-[10em]"
       >
         <img src="./images/WIGO_II_PL_PI_01.svg" alt="" class="w-[50em] mb-8" />
         <h2 class="text-center text-white font-semibold text-2xl mb-4">
@@ -283,13 +333,38 @@
         </div>
       </div>
     </section>
+    <!-- section 7 -> mobile -->
+    <div
+        class="flex justify-center items-center flex-col p-8 bg-[#000] lg:hidden"
+      >
+        <img src="./images/WIGO_II_PL_PI_01.svg" alt="" class="w-[50em] mb-8" />
+        <h2 class="text-center text-white font-semibold text-2xl mb-4">
+          Next Generation Wireless Audio
+        </h2>
+        <p class="text-center text-greycolor font-semibold mb-8">
+          The Wireless GO II is the world’s most powerful and versatile wireless
+          microphone. With an unparalleled feature set and ultra-compact form
+          factor, this is next generation wireless audio for every creator.
+        </p>
+        <div
+          class="text-center uppercase text-btncolor text-lg font-semibold cursor-pointer"
+        >
+          learn more
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+          <button
+            class="ml-4 bg-btncolor text-white px-5 py-1 rounded-full uppercase border border-btncolor hover:bg-white hover:text-btncolor"
+          >
+            buy now
+          </button>
+        </div>
+      </div>
 
     <!-- section 7 -->
     <section
-      class="w-full h-[42em] bg-[url(./images/rode-nt-usb-mini-webheader-1920x700-rgb.jpg)] bg-cover bg-center relative"
+      class="w-full h-[42em] bg-[url(./images/rode-nt-usb-mini-webheader-800x700-rgb.jpg)] lg:bg-[url(./images/rode-nt-usb-mini-webheader-1920x700-rgb.jpg)] bg-cover bg-center relative"
     >
       <div
-        class="flex flex-col w-[30em] justify-end absolute left-[10em] top-[10em]"
+        class="hidden lg:flex lg:flex-col lg:w-[30em] lg:justify-end lg:absolute lg:left-[10em] lg:top-[10em]"
       >
         <img
           src="./images/NT-USB_Mini_PL_PI_01.svg"
@@ -318,44 +393,74 @@
         </div>
       </div>
     </section>
+    <!-- section 7 mobile -->
+    <div
+    class="flex justify-center items-center flex-col p-8 bg-[#000] lg:hidden"
+  >
+    <img
+      src="./images/NT-USB_Mini_PL_PI_01.svg"
+      alt=""
+      class="w-[50em] mb-8"
+    />
+    <h2 class="text-center text-white font-semibold text-2xl mb-4">
+      Compact Sound, Incredibly Powerful
+    </h2>
+    <p class="text-center text-[#8EBDD7] font-semibold mb-8">
+      The NT-USB Mini brings pristine studio sound to a compact USB
+      microphone, and with RØDE Connect unlocking more power, more features
+      and more control, it’s the perfect recording solution for podcasters,
+      gamers and streamers.
+    </p>
+    <div
+      class="text-center uppercase text-btncolor text-lg font-semibold cursor-pointer"
+    >
+      learn more
+      <span><i class="fa-solid fa-chevron-right"></i></span>
+      <button
+        class="ml-4 bg-btncolor text-white px-5 py-1 rounded-full uppercase border border-btncolor hover:bg-white hover:text-btncolor"
+      >
+        buy now
+      </button>
+    </div>
+    </div>
 
     <!-- section 8 -->
-    <section class="px-32 py-12">
+    <section class="px-12 sm:px-16 lg:px-32 py-12">
       <h2 class="text-[#767676] text-4xl font-semibold text-center mb-12">
         Explore The RØDE Range
       </h2>
       <div
-        class="w-full h-[16em] bg-[url(./images/abc.png)] bg-cover bg-center mb-8 cursor-pointer"
+        class="w-full h-[6em] sm:h-[8em] lg:h-[16em] bg-[url(./images/abc.png)] bg-cover bg-center mb-8 cursor-pointer"
       >
         <h1
-          class="uppercase text-6xl font-semibold text-center text-white pt-20"
+          class="uppercase text-4xl sm:text-5xl lg:text-6xl font-semibold text-center text-white pt-6 sm:pt-8 lg:pt-20"
         >
           microphones
         </h1>
       </div>
       <div
-        class="w-full h-[16em] bg-[url(./images/abc1.jpg)] bg-cover bg-center mb-8 cursor-pointer"
+        class="w-full h-[6em] sm:h-[8em] lg:h-[16em] bg-[url(./images/abc1.jpg)] bg-cover bg-center mb-8 cursor-pointer"
       >
         <h1
-          class="uppercase text-6xl text-white font-semibold text-center pt-20"
+          class="uppercase text-3xl sm:text-5xl lg:text-6xl font-semibold text-center text-white pt-6 sm:pt-8 lg:pt-20"
         >
           interface & mixers
         </h1>
       </div>
       <div
-        class="w-full h-[16em] bg-[url(./images/abc3.png)] bg-cover bg-center mb-8 cursor-pointer"
+        class="w-full h-[6em] sm:h-[8em] lg:h-[16em] bg-[url(./images/abc3.png)] bg-cover bg-center mb-8 cursor-pointer"
       >
         <h1
-          class="uppercase text-6xl text-white font-semibold text-center pt-20"
+          class="uppercase text-3xl sm:text-5xl lg:text-6xl font-semibold text-center text-white pt-6 sm:pt-8 lg:pt-20"
         >
           software
         </h1>
       </div>
       <div
-        class="w-full h-[16em] bg-[url(./images/abc2.png)] bg-cover bg-center mb-8 hover:bg-[#c0b090] cursor-pointer"
+        class="w-full h-[6em] sm:h-[8em] lg:h-[16em] bg-[url(./images/abc2.png)] bg-cover bg-center mb-8 hover:bg-[#c0b090] cursor-pointer"
       >
         <h1
-          class="uppercase text-6xl text-white font-semibold text-center pt-20"
+          class="uppercase text-3xl sm:text-5xl lg:text-6xl font-semibold text-center text-white pt-6 sm:pt-8 lg:pt-20"
         >
           accessories
         </h1>
